@@ -1,4 +1,5 @@
 import React from "react";
+import './app.css'
 
 import {
   Footer,
@@ -13,7 +14,7 @@ import { CTA, Brand, Navbar } from "./components";
 function App() {
   return (
     <div className="App">
-      <div className="gradiend__bg">
+      <div className="gradient__bg">
         <Navbar />
         <Header />
       </div>
